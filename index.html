@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="calculator">
+   
+        <input type="text" readonly  id="display">
+    
+      <div class="container">
+        
+        <button class="sign" onclick="clickme('+')">+</button>
+        <button class="btn" onclick="clickme('1')">1</button>
+        <button class="btn" onclick="clickme('2')">2</button>
+        <button class="btn" onclick="clickme('3')">3</button>
+        <button class="sign" onclick="clickme('-')">-</button>
+        <button class="btn" onclick="clickme('4')">4</button>
+        <button class="btn" onclick="clickme('5')">5</button>
+        <button class="btn" onclick="clickme('6')">6</button>
+        <button class="sign" onclick="clickme('*')">*</button>
+        <button class="btn" onclick="clickme('7')">7</button>
+        <button class="btn" onclick="clickme('8')">8</button>
+        <button class="btn" onclick="clickme('9')">9</button>
+        <button class="sign" onclick="clickme('/')">/</button>
+        <button class="sign" onclick="calculate()">=</button>
+        <button class="btn" onclick="clickme('0')">0</button>
+       
+        
+        
+        <button class="sign" onclick="clearDisplay()">C</button>
+        
+       
+     </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
